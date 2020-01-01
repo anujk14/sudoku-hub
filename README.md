@@ -1,24 +1,15 @@
-# README
+# Sudoku Hub
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A platform for Sudoku enthusiasts to practice, learn and enjoy!
 
-Things you may want to cover:
+This application is built using Ruby on Rails 6 (6.0.2)
 
-* Ruby version
+## Setup
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- `rvm install 2.6.5`
+- `rvm use 2.6.5`
+- `rvm gemset create sudoku`
+- `rvm gemset use sudoku`
+- `bundle install`
+- `rails db:setup`
+- `rails db:migrate`
